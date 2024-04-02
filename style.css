@@ -2,6 +2,10 @@
     font-family: head;
     src: url(./HelveticaNowText-Regular.ttf);
 }
+@font-face {
+    font-family: Gilroy;
+    src: url(./Gilroy-Medium.ttf);
+}
 
 *{
     margin: 0;
@@ -93,6 +97,32 @@ body {
     padding: 3vw 1vw;
     justify-content: space-between;
   }
+
+
+
+    /* -----Content of page 2---- */
+
+    .page2_content{
+        text-align: center;
+        margin: 20px 2px ;
+        font-family: Gilroy;
+
+    }
+    .page2_content h1 {
+         text-transform: uppercase;
+         
+         margin: 48px 5px;
+         font-size: 60px;
+         color: white;
+         display: inline;
+         background: #000;
+    }
+    #page2_conent2{
+       font-size: 20px;
+       font-family: Gilroy;
+        border-bottom: 2px solid black;
+        margin: 4vw 22vw;
+    }
 
   #page2 .elem{
     height: 100%;
@@ -230,7 +260,7 @@ body {
  #page3 .content{
     display: flex;
     padding: 2vw 10vw ;
-    font-family: head;
+    font-family: Gilroy;
     font-size: 20px;
  }
 
@@ -425,7 +455,24 @@ body {
    }
 
 
- 
+     /* ------ Page 2 contents ---- */
+
+     .page2_content h1 {
+        text-transform: uppercase;
+        height: 20vh;
+        width: 100%;
+        margin: 48px 5px;
+        font-size: 40px;
+     
+        display: inline;
+        background: #000;
+   }
+   #page2_conent2{
+      font-size: 20px;
+      font-family: Gilroy;
+       border-bottom: 2px solid black;
+       margin: 4vw 22vw;
+   }
 
 
 
@@ -465,11 +512,11 @@ body {
     flex-direction: column;
     padding: 2vw 10vw ;
     font-family: head;
-    font-size: 20px;
+    font-size: 15px;
  }
 
  .content h1 {
-    font-size: 50px;
+    font-size: 40px;
  }
 .product-name{
     margin-top: 20px;
