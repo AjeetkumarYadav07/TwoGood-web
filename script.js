@@ -10,7 +10,7 @@ function locomotiveAnimation() {
     // Using Locomotive Scroll from Locomotive https://github.com/locomotivemtl/locomotive-scroll
   
     const locoScroll = new LocomotiveScroll({
-      el: document.querySelector("#main"),
+      el: document.querySelector("#main "),
       smooth: true,
     });
     // each time Locomotive Scroll updates, tell ScrollTrigger to update too (sync positioning)
@@ -160,3 +160,20 @@ function locomotiveAnimation() {
     });
   }
   cursorAnimation();
+
+
+
+   const hide = document.querySelector(".hide");
+   const clBtn = document.querySelector("#clB")
+   const menuPage = document.querySelector("#menu")  
+  const themePage = document.querySelector("#theme")
+
+  menuPage.addEventListener("click" , () =>{
+     hide.style.display = "block"
+     themePage.style.display = "none"
+  })
+
+  clBtn.addEventListener("click" , () =>{
+     hide.style.display = " none"
+     themePage.style.display = " block"
+  })
